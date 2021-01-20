@@ -1,0 +1,52 @@
+{"intents": [
+
+    {"tag": "greetings",
+    "patterns": ["hello", "hey", "hi", "good day", "greetings", "what's up?", "what's good?", "how is it going?"],
+    "responses": ["Hello! How can I help you?", "Hey! How can I help you?"]
+    },
+
+    {"tag": "goodbye",
+        "patterns": ["bye", "goodbye", "see you later", "have a nice day", "good night"],
+        "responses": ["Goodbye", "See you later", "Have a nice day"]
+        },
+
+    {"tag": "name",
+        "patterns": ["what is your name", " whats your name", "what should I call you", "what do they call you", "Who are you"],
+        "responses": ["I am Jarvis! I am Rafi's personal assistant"]
+    },
+
+    {"tag": "birth",
+        "patterns": ["when were you born", " what is your birthday", "when is your birthday", "whens your birthday", "whats your birthday", "where were you born"],
+        "responses": ["I was born on January second, 8 days before my creator's birthday, which is January tenth. I was created at Rafi Rahman's home, on his computer"]
+    },
+
+    {"tag": "time",
+        "patterns": ["what is the time", "whats the time", "what time is it"],
+        "responses": ["get time"]
+    },
+
+    {"tag": "date",
+        "patterns": ["what is the date", "whats the date", "what date is it", "whats todays date", "what is todays date", "what day is it", "what day is today", "what is today"],
+        "responses": ["get date"]
+    },
+
+    {"tag": "age",
+        "patterns": ["what is your age", "how old are you", "how young are you", "whats you age"],
+        "responses": ["get age"]
+    },
+
+    {"tag": "weather",
+        "patterns": ["what is the weather", "how is the weather", "how is it outside", "how is the weather today", "what is the weather today", "whats the weather", "whats the weather today", "whats the temperature", "what is the temperature today"],
+        "responses": ["get weather"]
+    },
+
+    {"tag": "currentSong",
+        "patterns": ["what song is playing", "what song is this", "what is this song", "which song is this", "what is playing", "which song is this"],
+        "responses": ["get current song"]
+    },
+
+    {"tag": "nextSong",
+        "patterns": ["play next song", "next song", "skip this song", "skip song", "play next song in queue", "next song in queue", "next", "skip"],
+        "responses": ["skip song"]
+    }
+]}
