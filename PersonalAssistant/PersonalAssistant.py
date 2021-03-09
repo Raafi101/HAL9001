@@ -1,5 +1,5 @@
 #Personal Assistant
-#Jarvis AI
+#HAL9001 AI
 #Raafi Rahman
 
 #import modules ===================================================================================
@@ -350,7 +350,7 @@ def runAI(command):
 
 
 #Add pyjokes ("Tell me a joke/fact")
-#Start the visual aspect of the project. (Watch Later YT). Use webcam to track your face.
+#Start the visual aspect of the project. Use webcam to track your face.
 talk("Hello. How can I help you?")
 while True:
     command = takeCommand()
