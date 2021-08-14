@@ -1,2 +1,5 @@
-# PersonalAssistant
-A personal assistant that can carry out tasks and can hold a conversation
+# HAL9001
+Not to be confused with my previous silly take on HAL9000. A personal assistant and chatbot created using TensorFlow. The model utilizes the “bag-of-words” NLP technique to decipher the command of the user. Model created using TensorFlow. Data manipulation is done through the Natural Language Toolkit (NLTK). Incorporates the Spotify API to allow Spotify control and the OpenWeather API for real-time weather retrieval. HAL9001 is able to search Google, YouTube, and Wikipedia. Other tasks include retrieving the time and date. Light conversation is also possible.
+
+# What Can HAL Do?
+By calling HAL by his name, you can "wake him up" and start giving him commands. You can control your Spotify through HAL. He can play songs, pause songs, queue songs, and skip songs. HAL can also control what you watch on YouTube. He can also search things up for you. You can ask a question and HAL will search Wikipedia and Google for you. Need to know the weather for today? Just ask HAL. Need the date or time? Just ask HAL.
